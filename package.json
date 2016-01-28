@@ -1,0 +1,29 @@
+{
+  "name": "replace-require-with-import",
+  "version": "1.0.0",
+  "description": "Replace Node.js CommonJS require statements with their ES2015 equivalent",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jameswomack/replace-require-with-import.git"
+  },
+  "keywords": [
+    "es6",
+    "es2015",
+    "convert",
+    "conversion",
+    "import",
+    "require",
+    "node",
+    "commonjs"
+  ],
+  "bin": {
+    "require2import": "./index.js"
+  },
+  "author": "James J. Womack (@james_womack)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jameswomack/replace-require-with-import/issues"
+  },
+  "homepage": "https://github.com/jameswomack/replace-require-with-import#readme"
+}
