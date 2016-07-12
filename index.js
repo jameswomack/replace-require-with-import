@@ -2,8 +2,8 @@
 
 const FS   = require('fs')
 const Path = require('path')
-const r1   = /^(let|var|const) ([a-zA-Z][a-zA-Z0-9]+) \= (require)\((('|")[a-zA-Z0-9-_]+('|"))\)/gm
-const r2   = /^(let|var|const) ([a-zA-Z][a-zA-Z0-9]+) \= (require)\((('|")[a-zA-Z0-9-_]+('|"))\)\.([a-zA-Z][a-zA-Z0-9]+)/gm
+const r1   = /^(let|var|const) +([a-zA-Z][a-zA-Z0-9]*) +\= +(require)\((('|")[a-zA-Z0-9-_.\/]+('|"))\)/gm
+const r2   = /^(let|var|const) +([a-zA-Z][a-zA-Z0-9]*) +\= +(require)\((('|")[a-zA-Z0-9-_.\/]+('|"))\)\.([a-zA-Z][a-zA-Z0-9]+)/gm
 
 const args = process.argv.slice(2)
 
