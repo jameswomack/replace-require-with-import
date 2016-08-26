@@ -1,7 +1,7 @@
 # replace-require-with-import
 
-# do it
+## How to use
 ```
-npm i replace-require-with-import -g
-require2import ./src/**/
+npm install -g replace-require-with-import
+require2import ./src/**/*.js
 ```
