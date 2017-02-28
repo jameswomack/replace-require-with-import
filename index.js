@@ -22,7 +22,7 @@ paths.forEach(function (p) {
 
 function replaceInFile(fp) {
   const result = FS.writeFileSync(fp, FS.readFileSync(fp, 'utf-8')
-    .replace(r2, `import { $7 as $2 } from $4;`)
+    .replace(r2, `import { $7 as $2 } from $4`)
     .replace(r1, `import $2 from $4`), 'utf-8')
   console.log(`> ${fp}`)
   return result
