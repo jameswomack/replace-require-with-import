@@ -25,5 +25,11 @@
   "bugs": {
     "url": "https://github.com/jameswomack/replace-require-with-import/issues"
   },
-  "homepage": "https://github.com/jameswomack/replace-require-with-import#readme"
+  "homepage": "https://github.com/jameswomack/replace-require-with-import#readme",
+  "dependencies": {
+    "globby": "^6.1.0"
+  },
+  "contributors": [
+    "Ole Morten Didriksen (https://github.com/oledid)"
+  ]
 }
