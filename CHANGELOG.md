@@ -4,6 +4,14 @@
 
 #### Features
 
-* **regex:** Match single-char variable names ([eaf10cb8](git+https://github.com/jameswomack/replace-require-with-import.git/commit/eaf10cb8))
+* **glob:** windows and special char support ([c0fb836](https://github.com/jameswomack/replace-require-with-import/commit/c0fb836))
+
+<a name="1.1.0"></a>
+## 1.1.0 (2016-06-12)
+
+
+#### Features
+
+* **regex:** Match single-char variable names ([eaf10cb8](https://github.com/jameswomack/replace-require-with-import/commit/eaf10cb8))
 
 
