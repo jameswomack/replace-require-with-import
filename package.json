@@ -3,6 +3,9 @@
   "version": "2.0.0",
   "description": "Replace Node.js CommonJS require statements with their ES2015 equivalent",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jameswomack/replace-require-with-import.git"

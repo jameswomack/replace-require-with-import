@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+
+cp test-input.js test-output.js
+
+./index.js test-output.js
+
+output=`cat test-output.js`
+expected_output=`cat test-expected-output.js`
+
+if [ "$output" == "$expected_output" ]; then
+  echo "Success!"
+  rm test-output.js
+  exit 0
+else
+  echo "Failed :("
+  rm test-output.js
+  exit -1
+fi
