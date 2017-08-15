@@ -1,3 +1,12 @@
+<a name="2.1.0"></a>
+## 2.1.0 (2017-08-15)
+
+
+#### Features
+
+* support destructuring require ([64629188](git+https://github.com/jameswomack/replace-require-with-import.git/commit/64629188))
+
+
 <a name="2.0.0"></a>
 ## 2.0.0 (2017-03-13)
 
