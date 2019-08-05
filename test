@@ -3,15 +3,16 @@
 cp test-input.js test-output.js
 
 ./index.js test-output.js
+status=$?
 
-output=`cat test-output.js`
-expected_output=`cat test-expected-output.js`
+diff ./test-expected-output.js ./test-output.js
+status=$?
 
-if [ "$output" == "$expected_output" ]; then
+if [ $status -eq 0 ]; then
   echo "Success!"
   rm test-output.js
   exit 0
-else
+else 
   echo "Failed :("
   rm test-output.js
   exit -1
