@@ -5,7 +5,7 @@
   "main": "index.js",
   "files": [
     "index.js"
-  ],
+  ], 
   "repository": {
     "type": "git",
     "url": "git+https://github.com/jameswomack/replace-require-with-import.git"
@@ -23,7 +23,7 @@
   "bin": {
     "require2import": "./index.js"
   },
-  "author": "James J. Womack (@james_womack)",
+  "author": "James Womack (@james_womack)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jameswomack/replace-require-with-import/issues"

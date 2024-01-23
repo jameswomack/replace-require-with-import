@@ -9,12 +9,12 @@ const r3     = /^(let|var|const) +(\{\s*([a-zA-Z_$][a-zA-Z0-9_$]*)\s*\}) +\= +(r
 const args = process.argv.slice(2)
 
 
+console.log(FS);
+
 if (!args.length) {
     console.error('Please pass a directory glob to "replace-require-with-import"\n')
     process.exit(1)
 }
-
-
 
 const paths = globby.sync(args)
 
