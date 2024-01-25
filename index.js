@@ -32,3 +32,4 @@ function replaceInFile(fp) {
 }
 
 console.info('Done!\n')
+console.info('Right on!\n')
