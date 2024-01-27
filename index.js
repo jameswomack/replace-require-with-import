@@ -13,8 +13,6 @@ if (!args.length) {
     process.exit(1)
 }
 
-
-
 const paths = globby.sync(args)
 
 
