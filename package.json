@@ -23,6 +23,9 @@
   "bin": {
     "require2import": "./index.js"
   },
+  "scripts": {
+    "test": "./test"
+  },
   "author": "James J. Womack (@james_womack)",
   "license": "MIT",
   "bugs": {
@@ -33,6 +36,7 @@
     "globby": "^6.1.0"
   },
   "contributors": [
-    "Ole Morten Didriksen (https://github.com/oledid)"
+    "Ole Morten Didriksen (https://github.com/oledid)",
+    "Alexander Wunschik (https://github.com/mojoaxel)"
   ]
 }
